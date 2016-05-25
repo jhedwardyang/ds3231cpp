@@ -26,7 +26,7 @@ struct ts {
     uint8_t sec;
     uint8_t min;
     uint8_t hour;
-    uint8_t dayOfWeek;
+    uint8_t dayOfWeek; // 1 = Sunday, 7 = Saturday
     uint8_t day;
     uint8_t month;
     uint8_t year;
